@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import BoardList2 from './component/BoardList2';
+import BoardList from './component/BoardList3';
 
 function App() {
-  return <BoardList2 />;
+  return <BoardList />;
 }
 
 export default App;
