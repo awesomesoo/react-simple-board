@@ -1,14 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
 
+import BoardList1 from './component/BoardList1';
+
 function App() {
-  return (
-    <div className="App">
-      {/* <header className="App-header">
-        
-      </header> */}
-    </div>
-  );
+  return <BoardList1 />;
 }
 
 export default App;
