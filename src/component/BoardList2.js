@@ -21,19 +21,29 @@ const dataList = [
   },
 ];
 
-const BoardList1 = () => {
+const BoardList2 = () => {
   const [data, setData] = useState(dataList);
   // const list = dataList.map(function (row) {
   //   return row.brdno + row.brdwriter;
   // });
-  const list = dataList.map((row) => row.brdno + row.brdwriter);
+  // const list = dataList.map((row) => row.brdno + row.brdwriter);
   return (
     <>
-      첫 번째: 리스트 내용 선택적으로 보여주기 (번호, 작성자)
+      두 번째:
+      <br />
+      리스트 내용 선택적으로 보여주기 (번호, 작성자)
+      <br />
+      ul li 태그 안에 리스트 보여주기
       <hr />
-      {list}
+      <ul>
+        {dataList.map((row) => (
+          <li key={row.brdno}>
+            {row.brdno} / {row.brdwriter}
+          </li>
+        ))}
+      </ul>
     </>
   );
 };
 
-export default BoardList1;
+export default BoardList2;
