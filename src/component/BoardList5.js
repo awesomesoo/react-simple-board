@@ -2,7 +2,7 @@ import React, { Component } from "react";
 /*
     테이블에 내용 등록 하기 (post)
 */
-class App4 extends Component {
+class BoardList5 extends Component {
   state = {
     maxNo: 4,
     boards: [
@@ -108,4 +108,4 @@ class BoardForm extends Component {
   }
 }
 
-export default App4;
+export default BoardList5;
