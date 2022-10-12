@@ -154,3 +154,14 @@ table > tbody > tr :nth-child(3),
 table > tbody > tr :nth-child(4) {
   text-align: center;
 }
+
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+form > input:first-child {
+  margin-right: 5px;
+}
+form > input:nth-child(2) {
+  margin-right: 10px;
+}
